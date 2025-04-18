@@ -1,0 +1,11 @@
+<suite name="FullTestSuite" verbose="1" parallel="false">
+    
+    <test name="CombinedPackageTest">
+        <classes>
+             <class name="com.mehedi.hasan.tests.signInTest"/>
+            <class name="com.mehedi.hasan.tests.logInTest"/>
+            <class name="com.mehedi.hasan.tests.orderProcess"/>
+        </classes>
+    </test>
+    
+</suite>
